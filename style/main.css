@@ -516,6 +516,12 @@ hr {
     font-variation-settings: 'wght' 395, 'wdth' 102;
     z-index: 10;
     font-size: 30px; }
+  .tile.tile-super .tile-inner {
+    color: #f9f6f2;
+    background: #3c3a32;
+    font-weight: 500;
+    font-variation-settings: 'wght' 500, 'wdth' 100;
+    font-size: 16px; }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -577,14 +583,26 @@ hr {
     color: #f9f6f2;
     background: #2d83b3;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-variation-settings: 'wght' 410, 'wdth' 92;
+    font-variation-settings: 'wght' 415, 'wdth' 92;
     font-size: 20px; }
-  .tile.tile-super .tile-inner {
+  .tile.tile-32768 .tile-inner {
     color: #f9f6f2;
-    background: #3c3a32;
-    font-weight: 500;
-    font-variation-settings: 'wght' 500, 'wdth' 100;
-    font-size: 16px; }
+    background: #2e2d99;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.63492), inset 0 0 0 1px rgba(255, 255, 255, 0.38095);
+    font-variation-settings: 'wght' 415, 'wdth' 92;
+    font-size: 20px; }
+  .tile.tile-65536 .tile-inner {
+    color: #f9f6f2;
+    background: #111065;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.71429), inset 0 0 0 1px rgba(255, 255, 255, 0.42857);
+    font-variation-settings: 'wght' 415, 'wdth' 92;
+    font-size: 20px; }
+  .tile.tile-131072 .tile-inner {
+    color: #f9f6f2;
+    background: #090833;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.79365), inset 0 0 0 1px rgba(255, 255, 255, 0.47619);
+    font-variation-settings: 'wght' 422, 'wdth' 90;
+    font-size: 17px; }
 
 @-webkit-keyframes appear {
   0% {
