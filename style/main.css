@@ -4,9 +4,12 @@ html, body {
   padding: 0;
   background: #faf8ef;
   color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
-
+  font-family: "Myriad Variable Concept", "Myriad Set Pro", "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+font-weight: 300;
+  font-variation-settings: 'wght' 320, 'wdth' 102;
+}
+strong,b{font-weight: 500 !important; font-variation-settings: 'wght' 560, 'wdth' 102;}
 body {
   margin: 80px 0; }
 
@@ -17,7 +20,8 @@ body {
 
 h1.title {
   font-size: 80px;
-  font-weight: bold;
+  font-weight: 200;
+  font-variation-settings: 'wght' 300, 'wdth' 101;
   margin: 0;
   display: block;
   float: left; }
@@ -61,7 +65,8 @@ h1.title {
   font-size: 25px;
   height: 25px;
   line-height: 47px;
-  font-weight: bold;
+  font-weight: 400;
+  font-variation-settings: 'wght' 395, 'wdth' 102;
   border-radius: 3px;
   color: white;
   margin-top: 8px;
@@ -82,7 +87,8 @@ h1.title {
     color: red;
     font-size: 25px;
     line-height: 25px;
-    font-weight: bold;
+    font-weight: 200;
+  font-variation-settings: 'wght' 300, 'wdth' 110;
     color: rgba(119, 110, 101, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
@@ -105,7 +111,8 @@ p {
 
 a {
   color: #776e65;
-  font-weight: bold;
+  font-weight: 500;
+  font-variation-settings: 'wght' 480, 'wdth' 102;
   text-decoration: underline;
   cursor: pointer; }
 
@@ -177,7 +184,8 @@ hr {
     animation-fill-mode: both; }
     .game-container .game-message p {
       font-size: 60px;
-      font-weight: bold;
+      font-weight: 300;
+  font-variation-settings: 'wght' 320, 'wdth' 102;
       height: 60px;
       line-height: 60px;
       margin-top: 222px; }
@@ -504,7 +512,8 @@ hr {
     border-radius: 3px;
     background: #eee4da;
     text-align: center;
-    font-weight: bold;
+    font-weight: 400;
+    font-variation-settings: 'wght' 395, 'wdth' 102;
     z-index: 10;
     font-size: 30px; }
   .tile.tile-2 .tile-inner {
@@ -528,43 +537,53 @@ hr {
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
-    font-size: 27px; }
+    font-variation-settings: 'wght' 400, 'wdth' 98;
+    font-size: 28px; }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background: #edcc61;
-    font-size: 27px; }
+    font-variation-settings: 'wght' 400, 'wdth' 98;
+    font-size: 28px; }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: #edc850;
-    font-size: 25px; }
+    font-variation-settings: 'wght' 400, 'wdth' 98;
+    font-size: 28px; }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
     background: #edc53f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 18px; }
+    font-variation-settings: 'wght' 410, 'wdth' 94;
+    font-size: 25px; }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 18px; }
+    font-variation-settings: 'wght' 410, 'wdth' 94;
+    font-size: 25px; }
   .tile.tile-4096 .tile-inner {
     color: #f9f6f2;
     background: #77a136;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 18px; }
+    font-variation-settings: 'wght' 410, 'wdth' 94;
+    font-size: 25px; }
   .tile.tile-8192 .tile-inner {
     color: #f9f6f2;
     background: #2db388;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 18px; }
+    font-variation-settings: 'wght' 410, 'wdth' 94;
+    font-size: 25px; }
   .tile.tile-16384 .tile-inner {
     color: #f9f6f2;
     background: #2d83b3;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 16px; }
+    font-variation-settings: 'wght' 410, 'wdth' 92;
+    font-size: 20px; }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
+    font-weight: 500;
+    font-variation-settings: 'wght' 500, 'wdth' 100;
     font-size: 16px; }
 
 @-webkit-keyframes appear {
