@@ -522,7 +522,7 @@ hr {
     background: #000000;
     font-weight: 500;
     font-variation-settings: 'wght' 500, 'wdth' 100;
-    font-size: 11px; }
+    font-size: 8px; }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -613,27 +613,75 @@ hr {
   .tile.tile-524288 .tile-inner {
     color: #f9f6f2;
     background: #000000;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.91118), inset 0 0 0 1px rgba(255, 255, 255, 0.57043);
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.91118), inset 0 0 0 1px rgba(255, 255, 255, 0.57143);
     font-variation-settings: 'wght' 422, 'wdth' 90;
     font-size: 17px; }
   .tile.tile-1048576 .tile-inner {
     color: #f9f6f2;
     background: #454900;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.96995), inset 0 0 0 1px rgba(255, 255, 255, 0.61705);
-    font-variation-settings: 'wght' 430, 'wdth' 88;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.96995), inset 0 0 0 1px rgba(255, 255, 255, 0.61905);
+    font-variation-settings: 'wght' 430, 'wdth' 85;
     font-size: 15px; }
   .tile.tile-2097152 .tile-inner {
     color: #f9f6f2;
     background: #989710;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.66367);
-    font-variation-settings: 'wght' 430, 'wdth' 88;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.66667);
+    font-variation-settings: 'wght' 430, 'wdth' 85;
     font-size: 15px; }
   .tile.tile-4194304 .tile-inner {
     color: #f9f6f2;
     background: #d7c012;
-    box-shadow: 0 0 33px 11px rgba(243, 215, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.71029);
-    font-variation-settings: 'wght' 430, 'wdth' 88;
+    box-shadow: 0 0 33px 11px rgba(243, 215, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.71429);
+    font-variation-settings: 'wght' 430, 'wdth' 85;
     font-size: 15px; }
+  .tile.tile-8388608 .tile-inner {
+    color: #f9f6f2;
+    background: #ff9834;
+    box-shadow: 0 0 36px 12px rgba(243, 215, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.7619);
+    font-variation-settings: 'wght' 430, 'wdth' 85;
+    font-size: 15px; }
+  .tile.tile-16777216 .tile-inner {
+    color: #f9f6f2;
+    background: #ff654f;
+    box-shadow: 0 0 39px 13px rgba(243, 215, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.80952);
+    font-variation-settings: 'wght' 440, 'wdth' 80;
+    font-size: 14px; }
+  .tile.tile-33554432 .tile-inner {
+    color: #f9f6f2;
+    background: #fd4871;
+    box-shadow: 0 0 42px 14px rgba(243, 215, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.85714);
+    font-variation-settings: 'wght' 440, 'wdth' 80;
+    font-size: 14px; }
+  .tile.tile-67108864 .tile-inner {
+    color: #f9f6f2;
+    background: #df69bd;
+    box-shadow: 0 0 45px 15px rgba(243, 215, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.90476);
+    font-variation-settings: 'wght' 440, 'wdth' 80;
+    font-size: 14px; }
+  .tile.tile-134217728 .tile-inner {
+    color: #f9f6f2;
+    background: #a093a0;
+    box-shadow: 0 0 48px 16px rgba(243, 215, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.95238);
+    font-variation-settings: 'wght' 450, 'wdth' 75;
+    font-size: 13px; }
+  .tile.tile-268435456 .tile-inner {
+    color: #f9f6f2;
+    background: #bdc071;
+    box-shadow: 0 0 51px 17px rgba(243, 215, 116, 1), inset 0 0 0 1px rgba(255, 255, 255, 1);
+    font-variation-settings: 'wght' 450, 'wdth' 75;
+    font-size: 13px; }
+  .tile.tile-536870912 .tile-inner {
+    color: #f9f6f2;
+    background: #d9c240;
+    box-shadow: 0 0 54px 18px rgba(243, 215, 116, 1), inset 0 0 1px 2px rgba(255, 255, 255, 1);
+    font-variation-settings: 'wght' 450, 'wdth' 75;
+    font-size: 13px; }
+  .tile.tile-1073741824 .tile-inner {
+    color: #f9f6f2;
+    background: #edc22e;
+    box-shadow: 0 0 80px 40px rgba(243, 215, 116, 1), inset 0 0 3px 3px rgba(255, 255, 255, 1);
+    font-variation-settings: 'wght' 450, 'wdth' 70;
+    font-size: 13px; }
 
 @-webkit-keyframes appear {
   0% {
